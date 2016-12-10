@@ -29,7 +29,6 @@ public class FacebookExam {
 				+ "&access_token=EAACEdEose0cBAO4YmZBNpCOx6rDLKmzn9PQPEZBOqkWd96ZCkhpdw3gZCciDAPkrU09mmIsqD0QLeI3bZARMAF5uukz6BDcn3YFUX3jtO8tfzArDr13OuuWRMTwNuOyWMBUmm8kwrGBxcLESmwnVGT1pXhj9OvgnGfZBS0SOAZBA75gMaeKlHZBCkup77yRGySIZD";
 
 
-
 		Elements elems =
 				CrawlerPack.start()
 				.getFromJson(uri)

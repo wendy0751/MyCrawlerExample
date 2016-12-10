@@ -26,7 +26,8 @@ public class AppleRealtime {
 	static SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHH:mm");
 	
 	public static void main(String[] args) throws Exception{
-		
+
+
 		// 遠端資料路徑
 		String uri = "http://www.appledaily.com.tw/realtimenews/section/new/";
 

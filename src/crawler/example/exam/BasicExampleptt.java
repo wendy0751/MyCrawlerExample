@@ -28,7 +28,12 @@ public class BasicExampleptt {
 				for(Element sdf :content.select("div.push")){
 					//content.remove();
 
-                    System.out.println(sdf.select(".push-userid").text());
+                    //System.out.println(sdf.select(".push-userid").text());
+                    String a = sdf.select(".push-userid").text();
+                    String b = sdf.select(".push-content").text();
+                    System.out.println(a+";"+b);
+
+
 				}
 
 

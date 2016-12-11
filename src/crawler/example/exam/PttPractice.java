@@ -39,6 +39,7 @@ public class PttPractice {
 				//.select("span:contains(推)~span.push-content")
 				//.select("span:contains(推)+span")
 				.select("span:containsOwn(推)+span+span")
+
 			    
 		);
 	}

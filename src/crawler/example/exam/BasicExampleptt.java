@@ -29,8 +29,12 @@ public class BasicExampleptt {
 					//content.remove();
 
                     //System.out.println(sdf.select(".push-userid").text());
-                    String a = sdf.select(".push-userid").text();
-                    String b = sdf.select(".push-content").text();
+                    //String a = sdf.select(".push-userid").text();
+                    //String b = sdf.select(".push-content").text();
+                    //System.out.println(a+";"+b);
+
+                    String a = sdf.select("span:contains(推)+span").text();
+                    String b = sdf.select("span:containsOwn(推)+span+span").text();
                     System.out.println(a+";"+b);
 
 
